@@ -1,5 +1,5 @@
-import Sidebar from './components/Sidebar';
-import TopBar from './components/TopBar';
+import Sidebar from '@/components/Sidebar';
+import TopBar from '@/components/TopBar';
 import './sistema.css';
 import './globals.css';
 import type { Metadata } from 'next';
