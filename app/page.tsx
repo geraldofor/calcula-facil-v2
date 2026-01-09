@@ -1,4 +1,6 @@
-import Card from '@/components/Card';
+'use client';
+
+import Card from './components/Card';
 
 export default function SistemaPage() {
   return (
@@ -20,7 +22,7 @@ export default function SistemaPage() {
             Cálculo de tarifas aéreas com taxas, RAV e FEE.
           </p>
           <a 
-            href="/sistema/tarifas" 
+            href="/sistema"
             className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition"
           >
             Acessar
@@ -39,7 +41,7 @@ export default function SistemaPage() {
             Decodificação de itinerários aéreos.
           </p>
           <a 
-            href="/sistema/conversor" 
+            href="/sistema"
             className="inline-block bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition"
           >
             Acessar
@@ -58,7 +60,7 @@ export default function SistemaPage() {
             Cálculo de reemissão Amadeus e outros GDS.
           </p>
           <a 
-            href="/sistema/reemissao" 
+            href="/sistema"
             className="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-700 transition"
           >
             Acessar
